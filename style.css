@@ -1,5 +1,4 @@
 body {
-  width: 100%;
   margin: 0 auto;
   text-align: center;
   font-family: "Helvetica", "Arial", sans-serif; }
@@ -11,16 +10,19 @@ a {
   a:hover {
     color: tomato; }
 
+h1, h2, h3, h4, h5 {
+  margin-top: 2em; }
+
 #menu {
   position: absolute;
-  width: 100%;
+  width: 80%;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
   background: #ededed;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
+  -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
@@ -33,12 +35,12 @@ a {
   #menuToggle {
     display: block;
     position: relative;
+    width: 80%;
     top: 50px;
     left: 50px;
     z-index: 3;
     -webkit-user-select: none;
-    user-select: none;
-    /* Just a quick hamburger */ }
+    user-select: none; }
     @media only screen and (min-width: 650px) {
       #menuToggle {
         display: none; } }
@@ -51,11 +53,8 @@ a {
       left: -5px;
       cursor: pointer;
       opacity: 0;
-      /* hide this */
       z-index: 4;
-      /* and place it over the hamburger */
-      -webkit-touch-callout: none;
-      /*  And let's slide it in from the left */ }
+      -webkit-touch-callout: none; }
       #menuToggle input:checked ~ span {
         opacity: 1;
         transform: rotate(45deg) translate(-2px, -1px);

@@ -1,5 +1,4 @@
 body {
-    width: 100%;
     margin: 0 auto;
     text-align: center;
 	font-family: "Helvetica", "Arial", sans-serif;
@@ -12,18 +11,22 @@ a {
 	&:hover { color: tomato; }
 }
 
+h1, h2, h3, h4, h5 {
+    margin-top: 2em;
+}
+
 // Nav menu
 #menu {
 	position: absolute;
-	width: 100%;
+	width: 80%;
 	margin: -100px 0 0 -50px;
 	padding: 50px;
 	padding-top: 125px;
 
 	background: #ededed;
 	list-style-type: none;
-	-webkit-font-smoothing: antialiased;
 	/* to stop flickering of text in safari */
+	-webkit-font-smoothing: antialiased;
 
 	transform-origin: 0% 0%;
 	transform: translate(-100%, 0);
@@ -44,6 +47,7 @@ a {
         @media only screen and (min-width:650px) { display: none }
 		display: block;
 		position: relative;
+        width: 80%;
 		top: 50px;
 		left: 50px;
 		z-index: 3;
@@ -58,8 +62,8 @@ a {
 			top: -7px;
 			left: -5px;
 			cursor: pointer;
-			opacity: 0; /* hide this */
-			z-index: 4; /* and place it over the hamburger */
+			opacity: 0;
+			z-index: 4;
 			-webkit-touch-callout: none;
 
 			&:checked ~ span {
@@ -75,13 +79,11 @@ a {
 			&:checked ~ span:nth-last-child(2) {
 				transform: rotate(-45deg) translate(0, -1px);
 			}
-			/*  And let's slide it in from the left */
 			&:checked ~ ul {
 				transform: none;
 			}
 		}
 
-		/* Just a quick hamburger */
 		span {
 			display: block;
 			width: 33px;
@@ -111,7 +113,6 @@ a {
 	}
 }
 
-
 // The screen to cover up the controls for the excel doc.
 .wrapper{
     position:relative;
@@ -129,4 +130,3 @@ a {
     display: block;
     color: #fff;
 }
-
