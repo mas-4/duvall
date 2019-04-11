@@ -32,7 +32,7 @@ a {
     position: relative;
     top: 50px;
     left: 50px;
-    z-index: 1;
+    z-index: 3;
     -webkit-user-select: none;
     user-select: none;
     /* Just a quick hamburger */ }
@@ -46,7 +46,7 @@ a {
       cursor: pointer;
       opacity: 0;
       /* hide this */
-      z-index: 2;
+      z-index: 4;
       /* and place it over the hamburger */
       -webkit-touch-callout: none;
       /*  And let's slide it in from the left */ }
@@ -69,7 +69,7 @@ a {
       position: relative;
       background: #cdcdcd;
       border-radius: 3px;
-      z-index: 1;
+      z-index: 3;
       transform-origin: 4px 0px;
       transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease; }
       #menuToggle span:first-child {
@@ -89,7 +89,7 @@ a {
   background: #FFF;
   right: 0px;
   bottom: 0px;
-  z-index: 999;
+  z-index: 2;
   display: block;
   color: #fff; }
 
