@@ -27,6 +27,9 @@ a {
   #menu li {
     padding: 10px 0;
     font-size: 22px; }
+  @media only screen and (max-width: 650px) {
+    #menuBar {
+      display: none; } }
   #menuToggle {
     display: block;
     position: relative;
@@ -36,6 +39,9 @@ a {
     -webkit-user-select: none;
     user-select: none;
     /* Just a quick hamburger */ }
+    @media only screen and (min-width: 650px) {
+      #menuToggle {
+        display: none; } }
     #menuToggle input {
       display: block;
       width: 40px;
