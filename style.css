@@ -112,10 +112,9 @@ ul.body {
     font-size: 1.15em; }
 
 .rules {
-  margin-top: 1em;
   max-width: 40em;
   margin: 0 auto;
-  font-size: 1.15em;
+  padding: 0.5em;
   text-align: left; }
   .rules h1, .rules h2, .rules h3, .rules h4 {
     text-align: center; }
