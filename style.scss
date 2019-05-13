@@ -130,3 +130,29 @@ h1, h2, h3, h4, h5 {
     display: block;
     color: #fff;
 }
+
+table, th, td {
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+ul.body {
+    max-width: 40em;
+    margin: 0 auto;
+    li {
+        text-align: left;
+        margin: 1em;
+        font-size: 1.15em;
+    }
+}
+.rules {
+    margin-top: 1em;
+    max-width: 40em;
+    margin: 0 auto;
+    font-size: 1.15em;
+    text-align: left;
+    h1, h2, h3, h4 {
+        text-align: center;
+        margin: 0.15em;
+    }
+}
