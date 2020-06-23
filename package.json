@@ -1,0 +1,15 @@
+{
+    "name": "duvall",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "me:duvall",
+    "author": "malan88 <m@stdwtr.io>",
+    "license": "MIT",
+    "dependencies": {
+        "sergey": "^0.0.13"
+    },
+    "scripts": {
+        "start": "sergey",
+        "dev": "sergey --watch"
+    }
+}
