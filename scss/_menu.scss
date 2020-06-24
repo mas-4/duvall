@@ -23,11 +23,11 @@
 	}
 
 	&Bar {
-        @media only screen and (max-width:650px) { display: none }
+        @media only screen and (max-width:700px) { display: none }
 	}
 
 	&Toggle {
-        @media only screen and (min-width:650px) { display: none }
+        @media only screen and (min-width:700px) { display: none }
 		display: block;
 		position: relative;
         width: 80%;
