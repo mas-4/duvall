@@ -1,3 +1,5 @@
+$toggle: 750px;
+
 // Nav menu
 #menu {
 	position: absolute;
@@ -23,11 +25,11 @@
 	}
 
 	&Bar {
-        @media only screen and (max-width:700px) { display: none }
+        @media only screen and (max-width:$toggle) { display: none }
 	}
 
 	&Toggle {
-        @media only screen and (min-width:700px) { display: none }
+        @media only screen and (min-width:$toggle) { display: none }
 		display: block;
 		position: relative;
         width: 80%;
