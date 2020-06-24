@@ -4,10 +4,21 @@
     </sergey-template>
 
     <sergey-template name="content">
+
         <h1>Rooming Assignments</h1>
         <div class="wrapper">
             <div class="hidelogo"></div>
-            <iframe width="285" height="1055" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=8EFFBCC36AA48391%214430&authkey=%21ADPYXJRVcfr7H8I&em=2&wdAllowInteractivity=False&Item='Rooming'!Print_Area&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+            <iframe
+                id="excel"
+                width="367"
+                height="870"
+                frameborder="0"
+                scrolling="no"
+                >
+            </iframe>
         </div>
+        <script type="text/javascript">
+            setURL("Rooming!A1:E76");
+        </script>
     </sergey-template>
 </sergey-import>
