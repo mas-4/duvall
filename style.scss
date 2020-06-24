@@ -1,4 +1,3 @@
-@import '_menu.scss';
 
 body {
     margin: 0 auto;
@@ -17,31 +16,13 @@ h1, h2, h3, h4, h5 {
     margin-top: 1em;
 }
 
-
-// The screen to cover up the controls for the excel doc.
-.wrapper{
-    position:relative;
-    z-index: 1;
-    display: inline-block;
-}
-.hidelogo{
-    position: absolute;
-    width: 100%;
-    height: 30px;
-    background: #FFF;
-    right: 0px;
-    bottom: 0px;
-    z-index: 2;
-    display: block;
-    color: #fff;
-}
-
 table, th, td {
     margin: 0 auto;
     text-align: center;
     border: 1px solid black;
 }
-ul.body {
+
+ul {
     max-width: 40em;
     margin: 0 auto;
     li {
@@ -50,6 +31,7 @@ ul.body {
         font-size: 1.15em;
     }
 }
+
 .rules {
     max-width: 40em;
     margin: 0 auto;
@@ -59,3 +41,5 @@ ul.body {
         text-align: center;
     }
 }
+
+@import '_menu.scss', 'excel.scss';

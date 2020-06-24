@@ -1,3 +1,39 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Helvetica", "Arial", sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease; }
+  a:hover {
+    color: tomato; }
+
+h1, h2, h3, h4, h5 {
+  margin-top: 1em; }
+
+table, th, td {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black; }
+
+ul {
+  max-width: 40em;
+  margin: 0 auto; }
+  ul li {
+    text-align: left;
+    margin: 1em;
+    font-size: 1.15em; }
+
+.rules {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 0.5em;
+  text-align: left; }
+  .rules h1, .rules h2, .rules h3, .rules h4 {
+    text-align: center; }
+
 #menu {
   position: absolute;
   width: 80%;
@@ -67,21 +103,6 @@
       #menuToggle span:nth-last-child(2) {
         transform-origin: 0% 100%; }
 
-body {
-  margin: 0 auto;
-  text-align: center;
-  font-family: "Helvetica", "Arial", sans-serif; }
-
-a {
-  text-decoration: none;
-  color: #232323;
-  transition: color 0.3s ease; }
-  a:hover {
-    color: tomato; }
-
-h1, h2, h3, h4, h5 {
-  margin-top: 1em; }
-
 .wrapper {
   position: relative;
   z-index: 1;
@@ -97,26 +118,5 @@ h1, h2, h3, h4, h5 {
   z-index: 2;
   display: block;
   color: #fff; }
-
-table, th, td {
-  margin: 0 auto;
-  text-align: center;
-  border: 1px solid black; }
-
-ul.body {
-  max-width: 40em;
-  margin: 0 auto; }
-  ul.body li {
-    text-align: left;
-    margin: 1em;
-    font-size: 1.15em; }
-
-.rules {
-  max-width: 40em;
-  margin: 0 auto;
-  padding: 0.5em;
-  text-align: left; }
-  .rules h1, .rules h2, .rules h3, .rules h4 {
-    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

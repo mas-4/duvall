@@ -1,0 +1,17 @@
+// The screen to cover up the controls for the excel doc.
+.wrapper{
+    position:relative;
+    z-index: 1;
+    display: inline-block;
+}
+.hidelogo{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background: #FFF;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+    display: block;
+    color: #fff;
+}
