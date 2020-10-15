@@ -1,9 +1,14 @@
 <script type="text/javascript">
     function setURL(sheet) {
-        const baseURL = "https://onedrive.live.com/embed?resid=8EFFBCC36AA48391%216722&authkey=%21AJZmQ6asjwLfGjU&em=2&wdAllowInteractivity=False&Item=";
-        const backURL = "&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True";
+        const resid = "8EFFBCC36AA48391%216792";
+        const authkey = "%21APIJqHc2JqkZOZU";
         const iframe = document.getElementById("excel");
-        const url = baseURL + encodeURI(sheet) + backURL;
+        const url = `https://onedrive.live.com/embed?`
+                  + `resid=${resid}&authkey=${authkey}`
+                  + `&em=2&wdAllowInteractivity=False`
+                  + `&Item=${encodeURI(sheet)}`
+                  + `&wdHideGridlines=True&wdDownloadButton=True`
+                  + `&wdInConfigurator=True`;
         iframe.setAttribute("src", url);
     }
 </script>
