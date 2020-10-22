@@ -27,7 +27,7 @@ under the A Player (Team Captain). You will record the score and the DuVall
 Points as before. At the end of the round, the team will have one score and the
 corresponding DuVall points listed.
 
-If your team is missing a player (3-man team), you will alternate taking shots
+**Absent Player Rule** — If your team is missing a player (3-man team), you will alternate taking shots
 for that player by hole.  Ex. Player D is absent.  First Hole, player A plays
 his own ball first for each shot and the shots for missing player D next.  Then
 on the Second hole, player B plays his ball first for each shot and the shots
