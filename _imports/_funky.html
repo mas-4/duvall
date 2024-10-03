@@ -1,32 +1,38 @@
 <script type="text/javascript">
-      function setURL(sheet) {
+    function setURL(sheet) {
 
-          /*
+        /*
 
-          === 2020 ===
-          resid="8EFFBCC36AA48391%216917";
-          authkey="AJ2tp5QSO2_KiVQ";
+        === 2020 ===
+        resid="8EFFBCC36AA48391%216917";
+        authkey="AJ2tp5QSO2_KiVQ";
 
-          === 2021 ===
-          resid=8EFFBCC36AA48391%216984
-          authkey=%21AOmno2MkO07Zzs8
+        === 2021 ===
+        resid=8EFFBCC36AA48391%216984
+        authkey=%21AOmno2MkO07Zzs8
 
-          === 2022 ===
-          resid=8EFFBCC36AA48391%217033
-          authkey=%21AHfWxX_ofd8LHsg
+        === 2022 ===
+        resid=8EFFBCC36AA48391%217033
+        authkey=%21AHfWxX_ofd8LHsg
 
-          === 2023 ===
-          */
-          const resid="8EFFBCC36AA48391%217423"
-          const authkey="!AL3nDYqAvoW9pRY"
+        === 2023 ===
+        const resid="8EFFBCC36AA48391%217423"
+        const authkey="!AL3nDYqAvoW9pRY"
 
-          const iframe = document.getElementById("excel");
-          const url = `https://onedrive.live.com/embed?`
-                    + `resid=${resid}&authkey=${authkey}`
-                    + `&em=2&wdAllowInteractivity=False`
-                    + `&Item=${encodeURI(sheet)}`
-                    + `&wdHideGridlines=True&wdDownloadButton=True`
-                    + `&wdInConfigurator=True`;
-          iframe.setAttribute("src", url);
-      }
+        === 2024 ===
+        const resid="8EFFBCC36AA48391%2112174"
+        const authkey="%21AHwupvC8YI58rHo"
+        */
+        const resid = "8EFFBCC36AA48391%2112174"
+        const authkey = "%21AHwupvC8YI58rHo"
+
+        const iframe = document.getElementById("excel");
+        const url = `https://onedrive.live.com/embed?`
+            + `resid=${resid}&authkey=${authkey}`
+            + `&em=2&wdAllowInteractivity=False`
+            + `&Item=${encodeURI(sheet)}`
+            + `&wdHideGridlines=True&wdDownloadButton=True`
+            + `&wdInConfigurator=True`;
+        iframe.setAttribute("src", url);
+    }
 </script>
