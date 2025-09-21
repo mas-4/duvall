@@ -25,6 +25,7 @@
 
 	== 2025 ==
 	const url = `https://1drv.ms/x/c/8effbcc36aa48391/IQQKvazwzKJrRpuntfIep9WtAfY-cbyzwjqxjJML_23sj88?`
+	const url =`https://1drv.ms/x/c/8effbcc36aa48391/IQQnDurMZNLJTpw9Te5-WGWJAYwtqYluQzGCNggqwn0xxb4`
 	Microsoft changed the url pattern, resid and authkey now useless.
 
 	== Old style ==
@@ -41,8 +42,8 @@
     	*/
 
         const iframe = document.getElementById("excel");
-	const url = `https://1drv.ms/x/c/8effbcc36aa48391/IQQKvazwzKJrRpuntfIep9WtAfY-cbyzwjqxjJML_23sj88?`
-	    + `&Item=${encodeURI(sheet)}`;
+	const url = `https://1drv.ms/x/c/8effbcc36aa48391/IQQnDurMZNLJTpw9Te5-WGWJAYwtqYluQzGCNggqwn0xxb4`
+	    + `?Item=${encodeURI(sheet)}`;
         iframe.setAttribute("src", url);
     }
 </script>
