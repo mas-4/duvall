@@ -22,17 +22,28 @@
         === 2024 ===
         const resid="8EFFBCC36AA48391%2112174"
         const authkey="%21AHwupvC8YI58rHo"
-        */
+
+	== 2025 ==
+	const url = `https://1drv.ms/x/c/8effbcc36aa48391/IQQKvazwzKJrRpuntfIep9WtAfY-cbyzwjqxjJML_23sj88?`
+	Microsoft changed the url pattern, resid and authkey now useless.
+
+	== Old style ==
+
         const resid = "8EFFBCC36AA48391%2112174"
         const authkey = "%21AHwupvC8YI58rHo"
-
-        const iframe = document.getElementById("excel");
         const url = `https://onedrive.live.com/embed?`
             + `resid=${resid}&authkey=${authkey}`
             + `&em=2&wdAllowInteractivity=False`
             + `&Item=${encodeURI(sheet)}`
             + `&wdHideGridlines=True&wdDownloadButton=True`
             + `&wdInConfigurator=True`;
+
+    	*/
+
+        const iframe = document.getElementById("excel");
+	const url = `https://1drv.ms/x/c/8effbcc36aa48391/IQQKvazwzKJrRpuntfIep9WtAfY-cbyzwjqxjJML_23sj88?`
+	    + `&Item=${encodeURI(sheet)}`;
         iframe.setAttribute("src", url);
     }
 </script>
+
