@@ -9,7 +9,7 @@
     <tr><td>Double Eagle</td><td>10 pts.</td></tr>
 </table>
 
-- **Return properly marked Scorecards** to auction room **IMMEDIATELY** following play. Whether you played well or not, be courteous to the other golfers by turning in your card as no prize awards can be made until **ALL** cards are accounted for.
+- **Return properly marked Scorecards** to the Proshop Staff **IMMEDIATELY** following play — let them know it's a DuVall scorecard. Whether you played well or not, be courteous to the other golfers by turning in your card as no prize awards can be made until **ALL** cards are accounted for.
 
 - **Scoring Results** and Buyout Information is available at duvallinvitational.com and is updated regularly throughout the tournament.
 
